@@ -1,0 +1,137 @@
+.sidebar img {
+    width: 50px;
+    /* adjust size as needed */
+    height: auto;
+}
+
+.sidebar .ms-2 div {
+    font-size: 21px;
+    /* adjust font size as needed */
+    /* text-transform: uppercase; */
+    /* makes text uppercase */
+}
+
+.logotext {
+    color: #555555;
+    font-weight: inherit;
+
+}
+
+.tlogo {
+    color: gray;
+}
+
+/* Add your custom styles here */
+/* Add your custom styles here */
+.toggle-button {
+    background-color: rgb(90, 90, 165);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: auto;
+
+}
+
+.toggle-icon {
+    color: rgb(236, 235, 247);
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+
+.sidebar.collapsed .toggle-icon {
+    transform: rotate(180deg);
+}
+
+/* Add your custom styles here */
+.nav-link.active {
+    background-color: #e9ecef;
+    /* Change background color as desired */
+    color: #000;
+    /* Change text color as desired */
+    font-weight: bold;
+    /* Make the text bold */
+    padding: 0.5rem 2rem;
+    /* Adjust padding as desired */
+    border-radius: 0.25rem;
+    /* Add some border radius */
+}
+
+.box-image {
+    position: absolute;
+
+    left: 50%;
+    border-radius: 50%;
+    border-color: #000;
+    transform: translateX(-50%);
+    width: 10px;
+    /* Adjust image width as needed */
+    height: 10px;
+
+}
+
+.box-container {
+    position: relative;
+    border-radius: 10px
+}
+
+
+/* Add your custom CSS styles here */
+/* Social media icons */
+/* Add your custom CSS styles here */
+/* Social media icons */
+.box-image {
+    border-radius: 50%;
+    border: 2px solid #000;
+    width: 40px;
+    /* Adjust icon size */
+    height: 40px;
+    /* Adjust icon size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+img {
+    margin-top: -5px;
+    /* Adjust margin to position the logo higher */
+}
+
+/* Background color */
+.bg-black {
+    background-color: #000;
+}
+
+.custom-border {
+    /* border: 4px; */
+    /* Adjust thickness and color as needed */
+    border-radius: 20px;
+    /* Rounded corners */
+}
+
+.icon-border {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-relative {
+    position: absolute;
+}
+
+.border-end {
+    border-right: 4px solid #1d1f21 !important;
+    border-radius: 5px;
+}
+
+.btn-download {
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(65, 146, 240);
+    border-radius: 10px;
+}
