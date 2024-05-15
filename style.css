@@ -46,6 +46,25 @@
     transform: rotate(180deg);
 }
 
+/* Add or modify CSS rules as needed */
+
+.sidebar img.sidebar-logo {
+    width: 60px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+}
+
+.box-image {
+    max-width: 100%;
+    /* Ensure images don't exceed container width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Adjust any other styles as needed */
+
+
 /* Add your custom styles here */
 .nav-link.active {
     background-color: #e9ecef;
@@ -99,8 +118,12 @@
 
 /* Logo */
 img {
-    margin-top: -15px;
+    margin-top: 0px;
     /* Adjust margin to position the logo higher */
+}
+
+.google-icon {
+    margin-top: -15px;
 }
 
 /* Background color */
@@ -111,8 +134,12 @@ img {
 .custom-border {
     /* border: 4px; */
     /* Adjust thickness and color as needed */
-    border-radius: 20px;
+    border-radius: 10%;
     /* Rounded corners */
+}
+
+.rounded {
+    border-radius: 1.25rem !important;
 }
 
 .icon-border {
@@ -136,4 +163,83 @@ img {
     background-color: black;
     border: 2px solid rgb(65, 146, 240);
     border-radius: 10px;
+}
+
+/* Define custom CSS styles for responsiveness */
+
+/* Adjust column widths for different screen sizes */
+@media (max-width: 992px) {
+    .col-lg-10 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Add additional responsive styles as needed */
+.partition {
+    position: relative;
+    /* Ensure relative positioning for child elements */
+    overflow: hidden;
+    /* Hide content that goes outside the partition */
+}
+
+.intern-posts {
+    padding: 10px;
+    /* Add padding to the content */
+    max-height: calc(100% - 42px);
+    /* Adjust max height to fit within partition */
+    overflow-y: auto;
+    /* Add scrollbar for overflow content */
+}
+
+.intern-posts h3 {
+    margin-bottom: 5px;
+}
+
+.intern-posts .d-md-flex {
+    margin-bottom: 20px;
+    /* Add margin to separate each organization */
+}
+
+.icon-border {
+    width: 60px;
+    /* Set fixed width for the border */
+    height: 60px;
+    /* Set fixed height for the border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border img {
+    width: 100%;
+    /* Make the image inside the border fill the container */
+    height: 100%;
+    /* Make the image inside the border fill the container */
+}
+
+@media (max-width: 768px) {
+    .partition {
+        margin-bottom: 20px;
+        /* Add margin between partitions on smaller screens */
+    }
+
+    .intern-posts {
+        max-height: unset;
+        /* Remove max height for smaller screens */
+    }
+
+    .icon-border {
+        width: 50px;
+        /* Adjust border width for smaller screens */
+        height: 50px;
+        /* Adjust border height for smaller screens */
+    }
 }
